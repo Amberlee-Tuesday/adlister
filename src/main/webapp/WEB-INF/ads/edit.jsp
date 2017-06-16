@@ -7,9 +7,9 @@
 </head>
 <body>
 <jsp:include page="/WEB-INF/partials/navbar.jsp" />
-<div class="container" id="adDescription">
-    <h1>Edit your Listing</h1>
-    <form action="/ads/edit" method="post">
+<div class="container" class="adDescription">
+    <h1 id="welcome">Edit your Listing</h1>
+    <form class="adDescription" action="/ads/edit" method="post">
         <div class="form-group">
             <label for="title">Title</label>
             <input id="title" name="title" class="form-control" type="text" value="${ad.title}">

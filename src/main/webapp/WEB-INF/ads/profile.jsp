@@ -10,13 +10,14 @@
 <body>
 <jsp:include page="/WEB-INF/partials/navbar.jsp" />
 
-    <div id="adDescription" class="container">
+    <div class="adDescription" class="container">
         <h1><c:out value="${ad.title}" /></h1>
         <p><c:out value="${ad.description}"/></p>
-        <p><c:out value="${ad.category}"/></p>
-        <h5><a href="/ads/edit?id=${ad.id}">Edit Ad</a></h5>
-        <h5><a href="/ads/delete?id=${ad.id}">Delete Ad</a></h5>
-
+        <p>Categories: <c:out value="${ad.category}"/></p>
+        <c:if test="${sessionScope.user.id == ad.userId}">
+            <h5><a href="/ads/edit?id=${ad.id}">Edit Ad</a></h5>
+            <h5><a href="/ads/delete?id=${ad.id}">Delete Ad</a></h5>
+        </c:if>
     </div>
 </body>
 </html>

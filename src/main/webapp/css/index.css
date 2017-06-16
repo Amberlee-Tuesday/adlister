@@ -3,6 +3,7 @@ html {
     margin: 0;
     padding: 0;
     line-height: 1;
+    color: black;
 }
 
 body {
@@ -12,34 +13,34 @@ body {
 }
 
 
-.welcome {
+#welcome {
     font-family: serif;
-    color: black;
+    color: yellow;
     font-size: 4em;
-    margin-left: 4.1em;
-
+    background-color: black;
+    text-align: center;
 }
 
 a {
     color: black;
-    font-size: 1.5em;
-    font-family: Serif;
+    font-size: 2em;
+    font-family: serif;
     text-decoration: none;
     list-style: none;
 }
 
-#adDescription {
+.adDescription {
     color: black;
-    background-color: hotpink;
+    background-color: yellow;
     border: 1px solid black;
     text-align: center;
-    font-family: Serif;
-    font-size: 1em;
+    font-family: serif;
+    font-size: 2em;
     text-decoration: none;
 }
 
  .navbar {
-     background-color: hotpink;
+     background-color: yellow;
      color: black
  }
 

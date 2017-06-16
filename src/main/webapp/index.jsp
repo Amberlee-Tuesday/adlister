@@ -8,11 +8,11 @@
 </head>
 <body>
     <jsp:include page="/WEB-INF/partials/navbar.jsp" />
-    <div id="welcome" class="container">
-        <div id="adDescription" ">
-            <h1>Welcome to ListSpot!</h1>
+    <div class="container">
+        <div class="adDescription">
+            <h1 id="welcome">Welcome to ListSpot!</h1>
             <p>Your spot for listing classifieds to the online community!</p>
-            <p><a href="/login">Login</a>or<a href="/register">Register</a></p>
+            <p><a href="/login">Login </a> or <a href="/register"> Register</a></p>
         </div>
     </div>
 </body>

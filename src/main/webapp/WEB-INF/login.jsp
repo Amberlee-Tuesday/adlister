@@ -7,15 +7,15 @@
 </head>
 <body>
     <jsp:include page="/WEB-INF/partials/navbar.jsp" />
-    <div id="adDescription" class="container">
-        <div class="center-content">
-            <h1>Please Log In</h1>
+    <h1 id="welcome">Please Log In</h1>
+    <div class="adDescription" class="container">
+        <div>
             <form action="/login" method="POST">
-                <div id="username" class="form-group">
+                <div id="user" class="form-group">
                     <label for="username">Username</label>
                     <input id="username" name="username" class="form-control" type="text" value="${user.username}">
                 </div>
-                <div id="password" class="form-group">
+                <div id="pass" class="form-group">
                     <label for="password">Password</label>
                     <input id="password" name="password" class="form-control" type="password">
                 </div>
