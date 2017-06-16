@@ -27,7 +27,5 @@ public class AdsIndexServlet extends HttpServlet {
         List<Ad> ads = DaoFactory.getAdsDao().findBySearch(search);
         request.setAttribute("ads", ads);
         request.getRequestDispatcher("/WEB-INF/ads/index.jsp").forward(request, response);
-
-
     }
 }

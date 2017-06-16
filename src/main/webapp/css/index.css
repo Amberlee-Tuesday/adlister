@@ -20,50 +20,6 @@ body {
 
 }
 
-#search {
-    background-color: #f6f6f6;
-    border-color: #dedede #bababa #aaa #bababa;
-    margin-left: 140em;
-
-}
-
-#submit {
-    border: 1px solid #CCC;
-}
-
-#welcomeNav {
-    font-family: Serif;
-    margin-left: 100em;
-    text-decoration: none;
-    list-style: none;
-    color: black;
-
-}
-
-#welcomeUser {
-    font-family: serif;
-    color: black;
-    font-size: 3em;
-    text-align: center;
-}
-
-#profileListings{
-    color: black;
-    font-size: 1.5em;
-    font-family: Serif;
-    text-align: center;
-
-}
-
-#mainTxt{
-    font-size: 3em;
-}
-#createAd {
-    font-family: Serif;
-    font-size: xx-large;
-    margin-left: 25em;
-}
-
 a {
     color: black;
     font-size: 1.5em;
@@ -72,68 +28,15 @@ a {
     list-style: none;
 }
 
-#currentAd{
-    color: black;
-    text-align: center;
-    font-family: Serif;
-    font-size: x-large;
-    background-color: hotpink;
-    border: 1px solid black;
-
-}
-
 #adDescription {
     color: black;
     background-color: hotpink;
+    border: 1px solid black;
     text-align: center;
     font-family: Serif;
     font-size: 1em;
-}
-
-#register {
-    font-family: Serif;
-    font-size: xx-large;
-    text-align: center;
-
-}
-
-#submitBtn {
-    font-family: Serif;
-    margin-left: 25em;
-    font-size: large;
-}
-
-#logIn {
-    font-family: Serif;
-    font-size: xx-large;
-    text-align: center;
-
-}
-
-#loginBtn {
-    font-family: Serif;
-    font-size: large;
-}
-
-#username {
-    font-family: Serif;
-    padding-bottom: 1.2em;
-    margin-bottom: 1em;
     text-decoration: none;
-
 }
-
-#password {
-    font-family: Serif;
-    padding-bottom: 1.2em;
-    text-decoration: none;
-
-}
- #results {
-     text-align: center;
-     font-size: 6em;
-     font-family: Serif;
- }
 
  .navbar {
      background-color: hotpink;

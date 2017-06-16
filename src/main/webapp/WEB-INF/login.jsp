@@ -7,7 +7,7 @@
 </head>
 <body>
     <jsp:include page="/WEB-INF/partials/navbar.jsp" />
-    <div id="logIn" class="container">
+    <div id="adDescription" class="container">
         <div class="center-content">
             <h1>Please Log In</h1>
             <form action="/login" method="POST">

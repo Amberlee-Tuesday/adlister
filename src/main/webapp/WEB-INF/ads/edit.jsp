@@ -7,7 +7,7 @@
 </head>
 <body>
 <jsp:include page="/WEB-INF/partials/navbar.jsp" />
-<div class="container">
+<div class="container" id="adDescription">
     <h1>Edit your Listing</h1>
     <form action="/ads/edit" method="post">
         <div class="form-group">

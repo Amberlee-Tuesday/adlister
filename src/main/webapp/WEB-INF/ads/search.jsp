@@ -7,7 +7,7 @@
 </head>
 <body>
 <jsp:include page="/WEB-INF/partials/navbar.jsp" />
-<div id="results" class="container">
+<div id="adDescription" class="container">
     <h1>Here are your search results!</h1>
     <form action="/ads/search" method="post">
         <div class="form-inline">

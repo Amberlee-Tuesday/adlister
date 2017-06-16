@@ -9,7 +9,7 @@
 <body>
     <jsp:include page="/WEB-INF/partials/navbar.jsp" />
     <div id="welcome" class="container">
-        <div class="center-content">
+        <div id="adDescription" ">
             <h1>Welcome to ListSpot!</h1>
             <p>Your spot for listing classifieds to the online community!</p>
             <p><a href="/login">Login</a>or<a href="/register">Register</a></p>

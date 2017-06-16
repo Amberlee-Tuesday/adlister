@@ -9,9 +9,9 @@
 <body>
 <jsp:include page="/WEB-INF/partials/navbar.jsp" />
 
-<div class="container">
+<div class="container" id="adDescription">
     <h1 id="mainTxt">Here are all the current listings!</h1>
-    <div id="adDescription">
+    <div>
         <c:forEach var="ad" items="${ads}">
             <div class="col-md-6">
                 <img src="">

@@ -16,6 +16,7 @@
         <p><c:out value="${ad.category}"/></p>
         <h5><a href="/ads/edit?id=${ad.id}">Edit Ad</a></h5>
         <h5><a href="/ads/delete?id=${ad.id}">Delete Ad</a></h5>
+
     </div>
 </body>
 </html>
